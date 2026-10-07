@@ -1,0 +1,16 @@
+# 忽略全量检测数据集
+4_yolo_disease_detect/plant_disease_detect/
+# 忽略YOLO运行结果
+runs/
+# 忽略缓存、临时文件
+__pycache__/
+*.cache
+*.ipynb_checkpoints
+# Python/Jupyter 自动生成的缓存文件
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 忽略PlantVillage玉米病害数据集（本地存放，不上传Git）
+3_pytorch_corn_disease/corn_disease/
+
